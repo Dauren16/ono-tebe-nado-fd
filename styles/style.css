@@ -16,12 +16,17 @@
   margin: 0;
 }
 
+.header__item {
+  padding-left: 8px;
+}
+
 .header__item--active {
   list-style-type: none;
+  padding-left: 0;
 }
 
 .header__icon-link {
-  width: 148px;
+  width: 137px;
   height: 105px;
 }
 
@@ -61,6 +66,7 @@
   background-image: url('../images/cover.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   padding: 50px;
   position: relative;
   display: grid;
@@ -83,8 +89,8 @@
 .cover__title {
   font-weight: 700;
   font-size: 100px;
-  line-height: 1.3em;
-  letter-spacing: 0.2em;
+  line-height: 1.2em;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
   color: #fff;
   z-index: 1;
@@ -96,10 +102,13 @@
 
 .cover__aligned-text--center {
   text-align: center;
+  margin-top: 12px;
+  margin-left: 27px;
 }
 
 .cover__aligned-text--end {
   text-align: end;
+  margin-right: -20px;
 }
 
 .cover__description {
@@ -127,7 +136,7 @@
   background-color: transparent;
   border: 1px solid #fff;
   margin: 0;
-  padding: 12px 31px;
+  padding: 10px 31px;
   text-transform: uppercase;
 }
 /*lots*/
@@ -229,7 +238,7 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   align-items: center;
-  margin-bottom: 206px;
+  margin-bottom: 180px;
   padding: 42px 0 0 25px;
   gap: 4px 22px;
 }
@@ -253,6 +262,7 @@
   display: grid;
   grid-column-start: 2;
   gap: 24px;
+  padding-right: 13px;
 }
 
 .about__heading {
